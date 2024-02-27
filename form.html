@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Form</title>
+
+    <style>
+        .input-box {
+  width: 300px;
+  height: 50px;
+}
+    </style>
+</head>
+
+<body>
+
+    <h1>Task form</h1>
+
+    <form>
+      <p>
+          <label>Title</label><br>
+          <input type="text">
+      </p>
+    
+      <p>
+          <label>Description</label><br>
+          <input type="text" class="input-box">
+
+      </p>
+    
+      <p>
+          <label>Category</label><br>
+          <input type="text">
+      </p>
+    
+      <p>
+        <label>Priority Level</label><br>
+        <select id="priority" name="Select an item">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+    </p>
+
+    <p>
+        <label>Progress Level</label><br>
+        <select id="progress" name="Select an item">
+            <option value="notstarted">Not started</option>
+            <option value="pending">Pending</option>
+            <option value="completed">Completed</option>
+          </select>
+    </p>
+
+      <button type="submit">Submit</button>
+    
+    </form>
+
+
+</body>
+</html>
